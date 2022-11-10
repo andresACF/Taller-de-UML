@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package Clinica;
-
+import personas.*;
 import java.util.ArrayList;
 
 /**
@@ -15,12 +15,14 @@ public class HistoriaClinica {
     protected ArrayList enfermedades;
     protected ArrayList aergias;
     protected ArrayList otros;
+    protected ArrayList<Doctor> doctores;
 
-    public HistoriaClinica(int nro, ArrayList enfermedades, ArrayList aergias, ArrayList otros) {
+    public HistoriaClinica(int nro, ArrayList enfermedades, ArrayList aergias, ArrayList otros, ArrayList<Doctor> doctores) {
         this.nro = nro;
         this.enfermedades = enfermedades;
         this.aergias = aergias;
         this.otros = otros;
+        this.doctores = doctores;
     }
 
     public int getNro() {
@@ -53,6 +55,14 @@ public class HistoriaClinica {
 
     public void setOtros(ArrayList otros) {
         this.otros = otros;
+    }
+
+    public ArrayList<Doctor> getDoctores() {
+        return doctores;
+    }
+
+    public void setDoctores(ArrayList<Doctor> doctores) {
+        this.doctores = doctores;
     }
     
     
