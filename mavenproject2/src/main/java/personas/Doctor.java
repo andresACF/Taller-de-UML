@@ -8,7 +8,7 @@ package personas;
  *
  * @author garci
  */
-public class Doctor {
+public class Doctor extends Persona{
     protected int regDoctor;
     protected String especialidad;
     protected Secretaria secretaria;

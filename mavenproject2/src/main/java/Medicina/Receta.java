@@ -2,22 +2,12 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package personas;
+package Medicina;
 
 /**
  *
  * @author garci
  */
-class Secretaria extends Persona{
-    protected Doctor doctor;
+public class Receta {
     
-    public boolean verificarCita(){
-        
-        return false;
-    }
-    
-    public boolean agendarCita(){
-        
-        return false;
-    }
 }

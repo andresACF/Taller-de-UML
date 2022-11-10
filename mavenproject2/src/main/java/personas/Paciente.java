@@ -8,16 +8,12 @@ package personas;
  *
  * @author garci
  */
-class Secretaria extends Persona{
-    protected Doctor doctor;
+public class Paciente extends Persona{
     
-    public boolean verificarCita(){
-        
-        return false;
-    }
+    protected String email;
     
-    public boolean agendarCita(){
+    public boolean solicitarCita(){
         
-        return false;
+        return true;
     }
 }
