@@ -25,6 +25,10 @@ public class HistoriaClinica {
         this.doctores = doctores;
     }
 
+    public HistoriaClinica() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
     public int getNro() {
         return nro;
     }

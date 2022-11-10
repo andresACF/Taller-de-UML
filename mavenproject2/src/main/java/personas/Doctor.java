@@ -4,6 +4,9 @@
  */
 package personas;
 
+import Clinica.Cita;
+import java.util.ArrayList;
+
 /**
  *
  * @author garci
@@ -12,6 +15,7 @@ public class Doctor extends Persona{
     protected int regDoctor;
     protected String especialidad;
     protected Secretaria secretaria;
+    protected ArrayList<Cita> citasPendientes;
     
     public void recetar(){
         

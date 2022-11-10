@@ -4,6 +4,11 @@
  */
 package personas;
 
+import Clinica.Cita;
+import Clinica.HistoriaClinica;
+import Medicina.Receta;
+import java.util.ArrayList;
+
 /**
  *
  * @author garci
@@ -11,9 +16,19 @@ package personas;
 public class Paciente extends Persona{
     
     protected String email;
+    protected Cita cita=null;
+    protected HistoriaClinica historiaClinica;
+    protected ArrayList<Receta> recetas;
+
+    public Paciente(String email) {
+        this.email = email;
+        this.historiaClinica= new HistoriaClinica();
+    }
     
     public boolean solicitarCita(){
         
         return true;
     }
+    
+    
 }

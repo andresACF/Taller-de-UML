@@ -4,12 +4,16 @@
  */
 package personas;
 
+import Clinica.Cita;
+import java.util.ArrayList;
+
 /**
  *
  * @author garci
  */
 class Secretaria extends Persona{
     protected Doctor doctor;
+    private ArrayList<Cita> citas;
     
     public boolean verificarCita(){
         
