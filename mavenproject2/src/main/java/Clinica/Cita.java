@@ -16,7 +16,7 @@ public class Cita {
     protected Paciente paciente; 
     protected Doctor doctor;
     
-    public void RealizarPago(Pago pago) {
-        
+     public boolean realizarPago(float pago) {
+        return true;
     }
 }
