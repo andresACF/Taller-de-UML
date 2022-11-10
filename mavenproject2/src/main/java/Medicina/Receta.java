@@ -4,10 +4,14 @@
  */
 package Medicina;
 
+import java.time.LocalDateTime;
+
 /**
  *
  * @author garci
  */
 public class Receta {
-    
+    protected LocalDateTime fecha;
+    protected PlanNutricional plannutricional;
+    protected Medicamento medicamento;
 }
