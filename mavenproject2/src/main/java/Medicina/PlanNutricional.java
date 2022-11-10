@@ -9,5 +9,5 @@ package Medicina;
  * @author User
  */
 public class PlanNutricional {
-    
+    protected String descripcion;
 }
